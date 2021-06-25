@@ -37,6 +37,7 @@ var firebaseConfig = {
     reviews.appendChild(li);
   })
   
+  
   function reviewTemplate({ fullName, message, createdAt }) {
     var createdAtFormatted = new Date(createdAt);
   
